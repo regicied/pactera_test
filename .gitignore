@@ -1,0 +1,14 @@
+.idea/
+__pycache__/
+*.pyc
+database_sqlite/
+*.log
+DL83_P1A18/
+out*.yaml
+FilesFolder/yaml_gen/
+env/
+*.xlsx
+localDatabase/refresh_token.db
+localDatabase/ericic/jobs.sqlite
+config.py
+celeryFolder/celery_config.py
