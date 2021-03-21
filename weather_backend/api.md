@@ -45,7 +45,7 @@
 
 | 参数名称 | multi | 必填| description |
 | :-----   | ----:| ----:|:----: |
-| city | False |  True| 指定城市的英文名称|
+| city | False |  True| 指定城市的英文名称 例如 Dalian, Melbourne, Wollongong|
 
 
 - request body: 
