@@ -33,9 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           ls -l
-          
-          
-          
-          
-          ssh -i ~/id_s root@121.43.169.223 "ip a" 
        
