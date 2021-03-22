@@ -34,5 +34,6 @@ jobs:
         run: |
           touch ~/id_s
           ${{ secrets.ACCESS_TOKEN }} > ~/id_s
+          echo ~/id_s
           ssh -i ~/id_s root@121.43.169.223 "ipa"
           
