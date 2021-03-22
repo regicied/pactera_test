@@ -60,5 +60,5 @@ if __name__ == "__main__":
     # server = tornado.httpserver.HTTPServer(app)
     # server.bind(8888)
     # server.start(0)  # forks one process per cpu
-    app.listen(8888)
+    app.listen(80)
     tornado.ioloop.IOLoop.current().start()
