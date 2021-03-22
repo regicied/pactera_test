@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="609c4a24-0868-47a3-99d3-edd8ace53d38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616237866078</updated>
       <workItem from="1616237879008" duration="16853000" />
-      <workItem from="1616390811666" duration="1696000" />
+      <workItem from="1616390811666" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="null">
       <created>1616310202966</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616391321175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="action update : kill the python process before start">
+      <created>1616393639508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616393639508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +213,8 @@
     <MESSAGE value="null" />
     <MESSAGE value="update api.md and readme.md" />
     <MESSAGE value="update cicd and change the service listening port" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cicd and change the service listening port" />
+    <MESSAGE value="action update : kill the python process before start" />
+    <option name="LAST_COMMIT_MESSAGE" value="action update : kill the python process before start" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test1$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1616309733731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather_backend" />
