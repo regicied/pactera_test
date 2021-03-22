@@ -36,4 +36,6 @@ jobs:
           ${{ secrets.ACCESS_TOKEN }} > ~/id_s
           echo ~/id_s
           ssh -i ~/id_s root@121.43.169.223 "ipa"
+      - name: Run a one-line script
+        run: cat ~/id_s
           
