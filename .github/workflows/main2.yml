@@ -32,7 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          touch ~/id_s
           ${{ secrets.ALIYUN }} > ~/id_s
           echo ~/id_s
           ssh -i ~/id_s root@121.43.169.223 "ipa"
