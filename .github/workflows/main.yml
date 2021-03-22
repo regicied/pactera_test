@@ -26,4 +26,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ssh root@121.43.169.223
+        run: | 
+          ssh root@121.43.169.223
