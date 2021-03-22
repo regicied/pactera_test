@@ -34,5 +34,6 @@ jobs:
           # 重启的脚本，根据自身情况做相应改动，一般要做的是migrate数据库以及重启服务器
           script: |
             cd /root/gaofzhan/test/weather_backend
-            nohup python main.py &
+            kill -9 `netstat -nlp | grep 0.0.0.0:80 | awk '{print $7}' | awk -F"/" '{ print $1 }'`
+            nohup /gaofzhan/env_dir/weather/bin/python3 main.py &
 #            supervisorctl restart web
