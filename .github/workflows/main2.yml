@@ -33,8 +33,9 @@ jobs:
       - name: Run a multi-line script
         run: |
           ${{ secrets.ALIYUN }} > ~/id_s
-          echo ~/id_s
-          ssh -i ~/id_s root@121.43.169.223 "ipa"
+          ssh -i ~/id_s root@121.43.169.223 "ip a"
+          ls -l
+          ssh -i ~/id_s root@121.43.169.223 "pwd"
       - name: Run a one-line script
         run: cat ~/id_s
           
